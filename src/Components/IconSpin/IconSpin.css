@@ -1,0 +1,31 @@
+.iconSpin:hover{
+    
+    filter: drop-shadow(0 0 2em #646cffaa);
+    
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.icon-image{
+    animation: rotate 10s linear infinite;
+}
+.icon-circle{
+    animation: spin 10s linear infinite;
+}
+  
+  @keyframes rotate {
+    0% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import HeroSection from "./Components/HeroSection/HeroSection";
+import Iconspin from "./Components/IconSpin/Iconspin";
+import NavBar from "./Components/Navbar/NavBar";
 
 function App() {
-  
-
   return (
-    <>
-     heloo
-    </>
-  )
+    <div className="w-full h-[100%] overflow-hidden">
+      <NavBar />
+      <HeroSection/>
+      
+    </div>
+  );
 }
 
-export default App
+export default App;

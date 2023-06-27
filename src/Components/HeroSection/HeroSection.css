@@ -1,0 +1,12 @@
+.hero-shadow {
+    position: absolute;
+  width: 944px;
+  height: 568px;
+  top: 142px;
+  left: 392px;
+  background-image: linear-gradient(
+    109.55deg,
+    rgba(33, 83, 211, 0.4) 13.73%,
+    rgba(39, 103, 123, 0.4) 85.66%
+  );
+}
