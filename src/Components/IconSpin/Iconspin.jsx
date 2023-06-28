@@ -10,11 +10,11 @@ import "./Iconspin.css"; // Import the CSS file for additional styling
 
 const Iconspin = () => {
   return (
-    <div className="relative flex justify-center items-center w-[944px] h-[944px] ml-auto mr-auto iconSpin">
+    <div className="relative flex justify-center items-center w-[750px] h-[750px]   lg:w-[944px] lg:h-[944px] ml-auto mr-auto iconSpin">
       {/* batman icon top border*/}
       <div className="absolute">
-        <div className="relative  icon-circle border h-[686px] w-[686px]   rounded-full">
-          <div className="absolute top-[400px]">
+        <div className="relative  icon-circle border h-[450px] w-[450px]  lg:h-[686px] lg:w-[686px]   rounded-full">
+          <div className="absolute top-[200px]  lg:top-[400px]">
             <div className="relative icon-image w-[40px] h-[40px]">
               <img
                 className="absolute z-10"
@@ -32,15 +32,15 @@ const Iconspin = () => {
       </div>
       {/* xbox Icon */}
       <div className="absolute">
-        <div className="realtive icon-circle  h-[686px] w-[686px]  rounded-full">
-          <img className="icon-image absolute bottom-[250px]  -right-9" src={xboxIcon} alt="xbox-icon" />
+        <div className="relative  icon-circle  h-[450px] w-[450px]  lg:h-[686px] lg:w-[686px]   rounded-full">
+          <img className="icon-image absolute bottom-[55px]  right-0 lg:bottom-[250px]  lg:-right-9" src={xboxIcon} alt="xbox-icon" />
         </div>
       </div>
         {/* green monster bottom left border*/}
       <div className="absolute">
-        <div className="relative icon-circle border h-[944px] w-[944px]  rounded-full">
+        <div className="relative icon-circle border w-[750px] h-[750px]  lg:h-[944px] lg:w-[944px]  rounded-full">
           <img
-            className="icon-image absolute -bottom-9 left-[400px]"
+            className="icon-image absolute bottom-96  lg:-bottom-9 lg:left-[400px]"
             src={greenMonster}
             alt="green-monster-icon"
           />
@@ -48,21 +48,21 @@ const Iconspin = () => {
       </div>
         {/* gta icon top border*/}
       <div className="absolute">
-        <div className="relative icon-circle border h-[464px] w-[464px]  rounded-full">
-          <img className="icon-image absolute -bottom-7 left-[270px]" src={gtaIcon} alt="boy-icon" />
+        <div className="relative icon-circle border h-[264px] w-[264px]  lg:h-[464px] lg:w-[464px]   rounded-full">
+          <img className="icon-image absolute bottom-[0px] left-[50px] lg:-bottom-7 lg:left-[270px]" src={gtaIcon} alt="boy-icon" />
         </div>
       </div>
         {/* boyIcon right*/}
       <div className="absolute">
-        <div className="relative icon-circle  h-[944px] w-[944px]  rounded-full">
-          <img className="icon-image absolute right-[400px]" src={boyIcon} alt="boy-icon" />
+        <div className="relative icon-circle w-[750px] h-[750px]  lg:h-[944px] lg:w-[944px]  rounded-full">
+          <img className="icon-image absolute right-[280px]  lg:right-[400px]" src={boyIcon} alt="boy-icon" />
         </div>
       </div>
         {/* seahorseIcon bottom*/}
       <div className="absolute">
-        <div className="relative icon-circle   h-[944px] w-[944px]  rounded-full">
+        <div className="relative icon-circle w-[750px] h-[750px]  lg:h-[944px] lg:w-[944px]  rounded-full">
           <img
-            className="icon-image absolute top-[120px] left-[150px]   "
+            className="icon-image absolute top-[700px] left-[200px]  lg:top-[120px] lg:left-[150px]   "
             src={seaHorseIcon}
             alt="sea-horse-icon"
           />

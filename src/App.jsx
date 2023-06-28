@@ -5,7 +5,7 @@ import NavBar from "./Components/Navbar/NavBar";
 
 function App() {
   return (
-    <div className="w-full h-[100%] overflow-hidden">
+    <div className="w-[100vw] h-[100vh] overflow-scroll ">
       <NavBar />
       <HeroSection/>
       

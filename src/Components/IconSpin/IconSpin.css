@@ -5,10 +5,10 @@
     filter: drop-shadow(0 0 2em #61dafbaa);
 }
 .icon-image{
-    animation: rotate 10s linear infinite;
+    animation: rotate 15s linear infinite;
 }
 .icon-circle{
-    animation: spin 10s linear infinite;
+    animation: spin 15s linear infinite;
 }
   
   @keyframes rotate {

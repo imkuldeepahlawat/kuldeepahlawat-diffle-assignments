@@ -12,8 +12,8 @@ const NavBar = () => {
         <img src={logo} alt="logo" />
       </div>
       {/* right */}
-      <div className="flex gap-4">
-        <div className="flex gap-3">
+      <div className="flex gap-4 ">
+        <div className="lg:flex gap-3 hidden md:block" >
           <img className="w-[24px] h-[24px]" src={region} alt="region" />
           <p className="font-medium">
             India (English) <span>{" "}•{" "}</span>
