@@ -6,7 +6,7 @@ import greenMonster from "../../assets/logo/greenMonster.png";
 import gtaIcon from "../../assets/logo/gtaIcon.png";
 import seaHorseIcon from "../../assets/logo/seaHorseIcon.png";
 import xboxIcon from "../../assets/logo/xboxIcon.png";
-import "./Iconspin.css"; // Import the CSS file for additional styling
+import "./IconSpin.css"; // Import the CSS file for additional styling
 
 const Iconspin = () => {
   return (
